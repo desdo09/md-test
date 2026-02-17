@@ -1,0 +1,11 @@
+# Core converter: converts PDF, Word, Excel, PowerPoint, HTML, etc. → Markdown
+markitdown[all]
+
+# Markdown parsing (used to build the PDF from the generated .md)
+markdown
+
+# PDF generation from Markdown content (pure-Python, no system deps required)
+fpdf2
+
+# Right-to-left text support (Hebrew, Arabic, etc.)
+python-bidi
