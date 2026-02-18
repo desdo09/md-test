@@ -61,10 +61,10 @@ print("\n=== Markdown preview (char count: %d, has Hebrew: %s) ===" % (
 ))
 
 # ── 3. Generate PDF ──────────────────────────────────────────────────────────
-from convert import _build_pdf
+from pdf_converter import build_pdf
 out_pdf = Path("output/hebrew_test.pdf")
 try:
-    _build_pdf(md_text, out_pdf)
+    build_pdf(md_text, out_pdf)
     print(f"\nPDF      -> {out_pdf}")
     print("PDF generated successfully.")
 except Exception as e:

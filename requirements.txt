@@ -9,3 +9,7 @@ fpdf2
 
 # Right-to-left text support (Hebrew, Arabic, etc.)
 python-bidi
+
+# Direct document → PDF converters (used by doc_to_pdf.py)
+docx2pdf      # .docx → PDF via MS Word (Windows) or LibreOffice
+weasyprint    # .html → PDF via CSS rendering
